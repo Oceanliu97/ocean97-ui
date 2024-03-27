@@ -1,0 +1,23 @@
+{
+  "name": "ly-components",
+  "version": "0.1.0",
+  
+  "description": "自用测试npm组件库",
+  "main": "main.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "vue-cli-service build --target lib ./src/package/index.js --name ly-ui --dest ly-ui"
+
+
+  },
+  "keywords": [
+    "components",
+    "library"
+  ],
+  "author": "Ocean Liu",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ]
+}
